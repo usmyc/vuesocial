@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h2>{{ osman }}</h2>
-    <h1>{{ lemur }}</h1>
+    <h1>{{ header }}</h1>
   </div>
 </template>
 
@@ -9,8 +8,7 @@
 export default {
   name: "HelloWorld",
   props: {
-    lemur: String,
-    osman: String,
+    header: String,
   },
 };
 </script>
