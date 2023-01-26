@@ -13,7 +13,7 @@ export default {
   name: "App",
   data() {
     return {
-      appname: "MetaTurkey Social",
+      appname: "MetaSocial",
     };
   },
   components: {
